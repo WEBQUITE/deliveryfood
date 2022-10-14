@@ -8,6 +8,8 @@ main{
     padding-top: 40px;
     background: linear-gradient(180deg, rgba(206, 206, 206, 0) 5.04%, #F5F5F5 100%);
     justify-content: center;
+    max-width: 1440px;
+    height: 1060px;
 }
 .block{
     display: flex;
@@ -138,30 +140,31 @@ main{
     color: #bfbfbf;
 }
 .cards{
+ 
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1200px;
-    padding-top: 56px;
-    margin-left: 160px;
+    padding-top: 106px;
+    margin-left: 1360px;
 }
 .card{
     display: inline-flex;
-    justify-content: space-between;
     height: 377px;
-    width: 384px;
+    width: 414px;
     background: #ffffff;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
     border-radius: 7px;
     flex-wrap: wrap;
 }
 .cards2{
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1200px;
-    margin-left: 160px;
-    padding-top: 30px;
+    margin-left: 1360px;
+    padding-top: 37px
 }
 .card-main{
     justify-content: space-between;
@@ -178,7 +181,8 @@ main{
     display: flex;
     width: 484px;
     padding-right: 132px;
-    padding-left: 104px;
+    padding-left: 154px;
+    padding-top: 15px;
     color: #8C8C8C;
 }
 
@@ -197,9 +201,36 @@ main{
     padding-left: 35px;
 }
 .tanuki{
-    justify-content: space-between;
-    display: inline-flex;
+    position: fixed;
+    font-size: 36px;
+    padding-top: 0px;
 }
 .m{
     padding-left: 5px;
+}
+.krevetka{
+    justify-content: center;
+    width: 400px;
+    
+}
+.hover{
+    padding-top: 25px;
+    margin-left: 1450px;
+
+}
+.main-text{
+    justify-content: space-between;
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color:#8C8C8C;
+}
+.main_h{
+    justify-content: space-between;
+    display: flex;
+}
+.main_buy{
+    background-color: #1890ff;
+    color: #F5F5F5;
 }
