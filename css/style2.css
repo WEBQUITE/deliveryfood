@@ -8,8 +8,10 @@ main{
     padding-top: 40px;
     background: linear-gradient(180deg, rgba(206, 206, 206, 0) 5.04%, #F5F5F5 100%);
     justify-content: center;
-    max-width: 1440px;
-    height: 1060px;
+}
+button img{
+    margin-left: 4px;
+    margin-right: 4px;
 }
 .block{
     display: flex;
@@ -63,6 +65,7 @@ main{
     color: #ffff;
     width: 97px;
     height: 40px;
+    border: 1px;
 }
 .button--seondary{
     background: transparent;
@@ -75,52 +78,21 @@ main{
     padding-top: 40px;
     background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
 }
-.online{
-    position: relative;
-    display: flex;
-    margin-left: 280px;
-    height: 300px;
-    width: 1200px;
-    border-radius: 10px;    
-    background: rgb(240, 226, 150);
-    right: 120px;
-    top: 50px;   
-}
 
-.online-txt{
-    display: inline-block;
-    width: 515px;
-    height: 300px;
-    align-items: center;
-}
-.online_img{
-    display: inline-block;
-    width: 685px;
-    height: 300px;
-    background: url(/img/header.png) ;
-}
-.online-p{
-    font-size: 22px;
-    padding-left: 70px;
-    
-}
-.online-h{
-    padding-left: 70px;
-    padding-top: 68px;
-    padding-bottom: 15px;
-    font-size: 30px;
-}
+
 .mid{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 56px;
+    justify-content: flex-start;
+    width: 1200px;    
 
 }
 .mid-txt{
     display: inline-flex;
-    padding-top: 50px;
     margin-left: 50px;
+    font-size: 36px;
+    font-weight: 700;
 }
 .search{
     display: inline-flex;
@@ -132,6 +104,7 @@ main{
     border: 1px solid #D9D9D9;
     border-radius: 2px;
     background: url(/img/Vector.png) no-repeat 10px center;
+    justify-content: flex-start;
 
 }.search::placeholder{
     font-style: normal;
@@ -140,50 +113,45 @@ main{
     color: #bfbfbf;
 }
 .cards{
- 
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1200px;
-    padding-top: 106px;
-    margin-left: 1360px;
+    padding-top: 56px;
+    padding-right: 0px;
+    
 }
 .card{
     display: inline-flex;
-    height: 377px;
-    width: 414px;
+    justify-content: space-between;
+    height: 384px;
+    width: 413px;
     background: #ffffff;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
     border-radius: 7px;
     flex-wrap: wrap;
+    text-decoration: none;
+    margin-right: 40px;
 }
 .cards2{
-   
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1200px;
-    margin-left: 1360px;
-    padding-top: 37px
+    padding-top: 30px;
 }
 .card-main{
-    justify-content: space-between;
-    display: flex;
-    height: 32px;
-    width: 384px;
-    padding-left: 24px;
-    padding-right: 32px;
-    font-size: 24px;
-    padding-top: 0px;
+
 }
 .card-bot{
     justify-content: space-between;
     display: flex;
-    width: 484px;
+    width: 384px;
     padding-right: 132px;
-    padding-left: 154px;
-    padding-top: 15px;
+    padding-left: 54px;
     color: #8C8C8C;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .footer{
@@ -200,37 +168,44 @@ main{
 .to_p {
     padding-left: 35px;
 }
-.tanuki{
-    position: fixed;
-    font-size: 36px;
-    padding-top: 0px;
-}
-.m{
-    padding-left: 5px;
-}
-.krevetka{
-    justify-content: center;
-    width: 400px;
-    
-}
-.hover{
-    padding-top: 25px;
-    margin-left: 1450px;
-
-}
-.main-text{
+.title_block{
     justify-content: space-between;
     display: flex;
-    font-size: 18px;
+    height: 32px;
+    width: 384px;
+    padding-left: 24px;
+    padding-right: 32px;
+    font-size: 24px;
+    padding-top: px;
+    color: black;
     font-weight: 400;
-    line-height: 21px;
-    color:#8C8C8C;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.main_h{
-    justify-content: space-between;
-    display: flex;
+.plus{
+   padding-right: 40px;
 }
-.main_buy{
+.desc{
+    color: grey;
+    padding-left: 24px;
+    margin-top: 10px;
+}
+.but_l{
+    
     background-color: #1890ff;
     color: #F5F5F5;
+    border: 1px;
+    width: 124px;
+    height: 40px;
+    border-radius: 2px;
+}
+.price{
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-product{
+    margin-top: 10px;
+}
+.cart{
+    margin-left: px;
 }

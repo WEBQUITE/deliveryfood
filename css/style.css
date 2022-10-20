@@ -55,19 +55,25 @@ main{
 .buttons{
     display: flex;
     flex-wrap: nowrap;
+    border: 1px;
+    border-radius: 2px;
 }
 .button--primary{
     background: #1890ff;
     color: #ffff;
     width: 97px;
     height: 40px;
+    border: 1px;
+    border-radius: 2px;
 }
 .button--seondary{
     background: transparent;
-    border: 0.5px solid rgb(100, 100, 100);
+    border: 0.5px solid grey;
     margin-left: 9px;
     width: 97px;
     height: 40px;
+    border: px;
+    border-radius: 2px;
 }
 main{
     padding-top: 40px;
