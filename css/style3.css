@@ -73,7 +73,6 @@ button img{
     margin-left: 9px;
     width: 97px;
     height: 40px;
-    cursor: pointer;
 }
 main{
     padding-top: 40px;
@@ -206,4 +205,112 @@ main{
 }
 .cart{
     margin-left: px;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+}
+.modal-head{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.modal-window{
+    max-width: 780px;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 41px 46px;
+    display: flex;
+    flex-direction: column;
+}
+.modal_title{
+    font-size: 36px;
+}
+.but_close{
+    width: 25px;
+    height: 25px;
+    background:url(../img_modal/close.png) no-repeat center / cover;
+    border: none;
+    cursor: pointer;
+}
+.food_name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.price_product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 320px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.count{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px;
+}
+.btn_count{
+    width: 41px;
+    height: 32px;
+    border-color: #1890ff;
+    color: #1890ff;
+    border: 1px solid #1890ff;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn_counted{
+    width: 71px;
+    height: 32px;
+    border: 1px solid #1890ff;
+    color: #1890ff;
+
+}
+.modal-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sum_btn{
+    width: 106px;
+    height: 53px;
+    background-color: #262626;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.sum{
+    color: #D9D9D9;
+    font-size: 20px;
+    font-weight: 700;
+}
+.button_primary{
+    width: 149px;
+    height: 40px;
+    border: 0px solid;
+    background-color: #1890ff;
+    border-radius: 2px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button_secondary{
+    width: 88px;
+    height: 40px;
+    border: 1px solid #8C8C8C;
+    color: #8C8C8C;
+    cursor: pointer;
+    margin-left: 10px;
 }
